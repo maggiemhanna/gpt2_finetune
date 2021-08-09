@@ -13,11 +13,11 @@ def main():
     parser.add_argument("--service_name",
                         type=str,
                         help="Name of the Web Service",
-                        default="lis_gpt2_webservice")
+                        default="lis-gpt2-webservice")
     parser.add_argument("--model_name",
                         type=str,
                         help="Name of the registered model name",
-                        default="lis_gpt2_model")
+                        default="lis-gpt2-model")
     parser.add_argument("--cpu_cores",
                         type=int,
                         help="CPU reserve capacity",

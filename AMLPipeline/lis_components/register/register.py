@@ -14,7 +14,7 @@ def main():
     parser.add_argument("--model_name",
                         type=str,
                         help="Name of the Registered Model",
-                        default="lis_gpt2_model")
+                        default="lis-gpt2-model")
     parser.add_argument("--register_deploy_link",
                         type=str,
                         help="register_deploy_link",

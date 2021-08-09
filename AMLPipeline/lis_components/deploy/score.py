@@ -9,7 +9,7 @@ def init():
     ## TODO
     global model, tokenizer
     # Get the path to the deployed model file and load it
-    model_path = Model.get_model_path('lis_gpt2_model')    
+    model_path = Model.get_model_path('lis-gpt2-model')    
     model = TFGPT2LMHeadModel.from_pretrained(model_path)
     tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 
