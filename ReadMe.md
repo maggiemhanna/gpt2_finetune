@@ -1,21 +1,21 @@
-This repo explores the use of pretrained NLP models offered by HuggingFace, shows how to finetune the pretrained model over your data, and how to train and deploy using Azure Machine Learning Pipelines.
+This repo explores the use of pretrained NLP models for Language Modeling offered by HuggingFace, shows how to finetune the pretrained model over your data, and how to train and deploy using Azure Machine Learning Pipelines.
 
 The repo is divided into two parts:
 
-* notebooks: contain all notebooks that explore the use of huggingface pretrained APIs, and how to finetune the pretrained models locally over custom data with Tensorflow and how to use finetuned models to generate next token or next texts.
+* notebooks: contains all notebooks that explore the use of huggingface pretrained APIs, and how to finetune the pretrained models locally over custom data with Tensorflow and how to use finetuned models to generate next token or next texts.
 
     * `notebooks/LanguageModelingPretrained.ipynb`: 
         *  Masked Language Modeling: Shows how we can perform Masked Language Modeling and Next Sentence Prediction (using pretrained models in HuggingFace)
             * Explains **BERT**, **RoBERTa** & **CamemBERT models**.
             * Checks out the different API versions offered by HuggingFace.
             * Checks out how we can use them using huggingface's pipeline class & Tensorflow model specific classes to predict masked tokens. 
-            * Run them over a list of examples to show the results.
+            * Runs them over a list of examples to show the results.
         
         * Casual Language Modeling: Shows how we can generate sequences' next token or texts.
-            * Explain GPT2 model.
-            * Check out the different API versions offered by HuggingFace. (**gpt2** & **asi/gpt2-fr**)
-            * Check out how we can use them using huggingface's pipeline class & Tensorflow model specific classes to predict next token or generate texts.
-            * Run them over a list of examples to show the results.
+            * Explains GPT2 model.
+            * Checks out the different API versions offered by HuggingFace. (**gpt2** & **asi/gpt2-fr**)
+            * Checks out how we can use them using huggingface's pipeline class & Tensorflow model specific classes to predict next token or generate texts.
+            * Runs them over a list of examples to show the results.
 
     * `notebooks/FineTuneGPT2.ipynb`: 
         * This notebook will finetune the pretrained GPT2 model using tensorflow on the **banking77** dataset: https://huggingface.co/datasets/banking77
@@ -66,4 +66,4 @@ The repo is divided into two parts:
             * The path to the outputs is passed as a datastore path between the steps.
 
         
-        
+![image.png](attachment:124f1ee2-c60f-4e6d-9876-b38c0cce513f.png)
