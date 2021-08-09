@@ -64,6 +64,7 @@ The repo is divided into two parts:
                 * For now the GPU is not being used.
             * Defines pipeline steps: **train**, **register**, **deploy**.
             * The path to the outputs is passed as a datastore path between the steps.
+        * Consumes Web Service with an example.
 
         
 ![](pipeline.PNG)
