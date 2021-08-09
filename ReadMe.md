@@ -66,4 +66,4 @@ The repo is divided into two parts:
             * The path to the outputs is passed as a datastore path between the steps.
 
         
-![image.png](attachment:124f1ee2-c60f-4e6d-9876-b38c0cce513f.png)
+![](pipeline.PNG)
